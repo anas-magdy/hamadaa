@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+body
+{
+    background-image: url(../img/login2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto
+}
+@media(max-width:980px){
+    body{
+    background-image: url(../img/login2.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    }
+}
+.overlay
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(0,0,0,0.5)
+}
+.navbar-brand
+{
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: cursive;
+}
+li 
+{
+    font-size: 22px;
+    margin-left: 20px;
+    font-style: italic;
+    font-family: cursive
+}
+.btn
+{
+    color: #fff;
+    font-weight: bold;
+    border:1px solid #fff;
+    margin-left: 30px
+}
+.btn:hover
+{
+    color:#DC3545;
+    background: #fff;
+    border: none
+}
+small
+{
+    font-weight: bolder;
+    margin-left: 35px
+}
+i
+{
+    font-size: 28px;
+    float: left;
+    margin-right: 10px;
+    color: #dc3545;
+    margin-top: 7px
+}
+.row
+{
+    margin: 0
+}
