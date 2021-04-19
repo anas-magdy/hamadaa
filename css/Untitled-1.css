@@ -1,0 +1,467 @@
+
+*
+{
+    transform-origin: center;
+}
+
+body
+{
+    background-image: url("../photos/imag-1/man-walking-on-road-3729470.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: 'pacifico,cursive';
+    perspective: 2000px;
+    position: relative;
+}
+
+/***********************************************************************/
+/************************************************************************/
+.navbar-brand
+{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive
+}
+li 
+{
+    font-size: 20px;
+    margin-left: 20px;
+    font-style: italic;
+  
+}
+li:hover{
+    font-size: 25px;
+    background-color: rgba(0,0,0,0.629);
+    transition: 0.8s;
+    border-radius:20px ;
+}
+
+.active{
+    border-radius: 7px ;
+    background-color:#CCA180;
+}
+/************************************************************************/
+/************************************************************************/
+.introduction
+{
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 130p
+}
+.intro
+{
+    background-color: rgba(0, 0, 0, .5);
+    color: rgb(250, 225, 114);
+    line-height: 2em;
+    padding-top: 20px;
+    margin-bottom: 70px;
+    padding-bottom: 20px;
+}
+.intro input
+{
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid rgb(250, 225, 114);
+    width: 300px;
+    height: 50px;
+    padding-left: 15px;
+    color: rgb(250, 225, 114);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.intro button
+{
+    width: 150px;
+    height: 50px;
+    background-color: inherit;
+    color: rgb(250, 225, 114);
+    border: 1px solid;
+    transform-style: preserve-3d;
+    transition: all ease-in-out .5s;
+}
+.intro button:hover
+{
+    animation: swing 1s infinite ease-in-out;  
+}
+@keyframes swing
+{
+    0% {
+        transform: skewY(-20deg);   
+     }
+    20% {
+        transform: skewY(20deg);
+        }
+    40% {
+        transform: skewY(-10deg);   
+     }
+    60% {
+        transform: skewY(10deg);
+    }
+    80% {
+    
+        transform: skewY(-10deg);   
+     }
+    100% {
+        transform: skewY(0deg);
+        }
+}
+
+/*****************************************************/
+/*******************************************************/
+.row
+{
+    justify-content: center;
+}
+.card
+{
+    transform-style: preserve-3d;
+    transition: ease-in-out all 1s;
+    height: 350px;
+    position: relative;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    transform-origin: center;
+}
+.card > div
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+   
+}
+.card .front img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.card .front
+{
+    z-index: 2;
+    backface-visibility: hidden;
+}
+.card .back
+{
+    transform: rotateY(180deg);
+    border-radius: 20px;
+    background-size: 100% 100%;
+}
+.card .back .opacity
+{
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1;
+    height: 100%;
+    padding-top: 140px;
+    backface-visibility: hidden;
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.price
+{
+    color: rgb(250, 225, 114);
+    font-size: 20px;
+    margin-top: 15px;
+}
+.price span
+{
+    font-weight: bold;
+    margin-left: 7px;
+}
+.section button
+{
+    width: 150px;
+    height: 50px;
+    background-color: inherit;
+    color: rgb(250, 225, 114);
+    border: 1px solid;
+    transform-style: preserve-3d;
+    transition: all ease-in-out .5s;
+}
+.section button:hover
+{
+    animation: swing 1s infinite ease-in-out;  
+}   
+.fa-shopping-cart,.fa-shipping-fast,.fa-cc-visa
+{
+    font-size: 30px;
+    margin-right: 20px;
+    padding: 4px;
+    border: 2px solid black;
+    color: rgb(250, 225, 114);
+    border-radius: 50%;
+
+}
+.fa-shopping-cart:hover,.fa-shipping-fast:hover,.fa-cc-visa:hover
+{
+    transform: rotateY(360deg);
+    transition: all ease-in-out 1s;
+}
+
+.card:hover
+{
+    transform: rotateY(180deg);
+}
+.section-2
+{
+    display: none;
+}
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+.card-1 .back
+{
+    background-image: url("../photos/imag-1/s615128752526776224_p49_i4_w1600-1-755x1024.jpeg");
+}
+.card-2 .back
+{
+    background-image: url("../photos/imag-1/Mens-Fashion-Style-Outfits-Ideas-18.jpg");
+}
+.card-3 .back
+{
+    background-image: url("../photos/imag-1/Mens-Fashion-Style-Outfits-Ideas-37.jpg");
+}
+.card-4 .back
+{
+    background-image: url("../photos/imag-1/guy-with-cool-black-suit-clothing-style.jpg");
+}
+.card-5 .back
+{
+    background-image: url("../photos/imag-1/a432d7fecd349be7f29215597bf6224f.jpg");
+}
+.card-6 .back
+{
+    background-image: url("../photos/imag-1/man-wearing-grey-suit-and-grey-hat-2963035.jpg");
+}
+.card-7 .back
+{
+    background-image: url("../photos/imag-1/man-sitting-on-chair-while-holding-his-face-1222345.jpg");
+}
+.card-8 .back
+{
+    background-image: url("../photos/imag-1/man-in-black-jacket-wearing-black-sunglasses-smiling-3777562.jpg");
+}
+.card-9 .back
+{
+    background-image: url("../photos/imag-1/shirt.jpg");
+}
+.card-10 .back
+{
+    background-image: url("../photos/imag-1/mens-black-suit-outfit-style-ideas.jpg");
+}
+.card-11 .back
+{
+    background-image: url("../photos/imag-1/sshommeeswed.jpg");
+}
+.card-12 .back
+{
+    background-image: url("../photos/imag-1/man-in-gray-suit-jacket-smoking-cigarette-3518392.jpg");
+}
+.card-13 .back
+{
+    background-image: url("../photos/imag-1/getty_507716250_226806.jpg");
+}
+.card-14 .back
+{
+    background-image: url("../photos/imag-1/timless-img-burton.jpg");
+}
+.card-15 .back
+{
+    background-image: url("../photos/imag-1/man-in-green-suit-jacket-and-green-pants-3600142.jpg");
+}
+.card-16 .back
+{
+    background-image: url("../photos/imag-1/107593974_823786834694714_5149459785353863109_n.jpg");
+}
+.card-17 .back
+{
+    background-image: url("../photos/imag-1/107831942_3679132665437071_1539543919918202254_n.jpg");
+}
+.card-18 .back
+{
+    background-image: url("../photos/imag-1/107572816_823786801361384_3045469966387199414_n.jpg");
+}
+.card-19 .back
+{
+    background-image: url("../photos/imag-1/61923056_2744195475597466_9160905478450970624_o.jpg");
+}
+.card-20 .back
+{
+    background-image: url("../photos/imag-1/107367990_823786724694725_7245748413427019731_n.jpg");
+}
+.card-21 .back
+{
+    background-image: url("../photos/imag-1/107831942_3679132665437071_1539543919918202254_n.jpg");
+}
+.card-22 .back
+{
+    background-image: url("../photos/imag-1/108123358_3679136618770009_1453106476175166801_n.jpg");
+}
+.card-23 .back
+{
+    background-image: url("../photos/imag-1/107572816_823786801361384_3045469966387199414_n.jpg");
+}
+.card-24 .back
+{
+    background-image: url("../photos/imag-1/76203168_3038964149453929_2000579084823822336_o.jpg");
+}
+.card-25 .back
+{
+    background-image: url("../photos/imag-1/106893731_823787071361357_4225180189196176354_n.jpg");
+}
+.card-26 .back
+{
+    background-image: url("../photos/imag-1/sshommeeswed.jpg");
+}
+.card-27 .back
+{
+    background-image: url("../photos/imag-1/106242470_1214717345542809_2267896016337994959_o.jpg");
+}
+.card-28 .back
+{
+    background-image: url("../photos/imag-1/106234882_1214717575542786_5109274802628229390_o.jpg");
+}
+.card-29 .back
+{
+    background-image: url("../photos/imag-1/102993987_1189447568069787_5387593150602674176_o.jpg");
+}
+.card-30 .back
+{
+    background-image: url("../photos/imag-1/107693394_3679132562103748_8075464637643915840_n.jpg");
+}
+/****************************************************************************************************/
+/***************************************************************************************************/
+
+/******************************************************************************/
+/******************************************************************************/
+.features-icon
+{
+    width: 300px;
+    color: rgb(250, 225, 114);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    transition: 1s;
+}
+.fa-map-marker-alt, .fa-handshake, .fa-cogs
+{
+    font-size: 30px;
+    color: teal;
+}
+.section-3
+{
+    background-color: rgba(0, 0, 0, .5);
+}
+.section-3 h1
+{
+    color: rgb(250, 225, 114);
+}
+
+/*****************************************************************************/
+
+.footer{
+    /*    margin-top: 30px;*/
+        background-color: black;
+        color: white;
+        height: auto;
+    }
+    
+    /*fontawesome at the footer*/
+    .fontawesome1,.fontawesome2,.fontawesome3{
+        font-size: 40px;
+        color:#B10923;
+        padding: 7px;
+        border-radius: 50px
+    }
+    /*hover over fontawesome*/
+    a:hover{
+        color:#b8b8b8;
+    }
+    
+    /*column 1 at the footer*/
+    .column1{
+        margin-top: 50px;
+    }
+    /*header in column 1 at the footer*/
+    .column1 h2{
+        font-family: Monospace;
+        font-style: italic;
+        font-size: 40px;
+    }
+    
+    /*column 2 at the footer*/
+    .column2{
+        margin-top: 60px;
+        padding-left: 30px;
+    }
+    /*move pharagraph in column 2 at the footer*/
+    .column2 p
+    {
+        margin-top: 40px;
+    }
+ 
+/*****************************************************************************
+.loading
+{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   background-color: burlywood;
+}
+.loading span
+{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 50%;
+    margin-top: 50px;
+    opacity: .5;
+    animation: snak 1s infinite ease-in-out;
+}
+.loading span:nth-of-type(2)
+{
+    left: 20px;
+    animation-delay: .2s;
+}
+.loading span:nth-of-type(3)
+{
+    left: 40px;
+    animation-delay: .4s; 
+}
+.loading span:nth-of-type(4)
+{
+    left: 60px;
+    animation-delay: .6s;
+}
+.loading span:last-of-type
+{
+    left: 80px;
+    animation-delay: .8s;
+}
+@keyframes snak
+{
+    0% {
+        opacity: .3;
+        transform: translateY(0px);
+        box-shadow: 0 20px 3px rgba(0, 0, 0, .05);
+     
+    }
+   
+    50% {
+        opacity: 1;
+        transform:  translateY(-10px);
+        box-shadow: 0 20px 3px rgba(0, 0, 0, .01);
+        
+    }
+    100%{
+        opacity: .3;
+        transform: translateY(0px);
+        box-shadow: 0 20px 3px rgba(74, 180, 74, 0.74);
+    }
+}/********************************************************************/
+/********************************************************************/
+
